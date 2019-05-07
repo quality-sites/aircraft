@@ -1,0 +1,37 @@
+@import "~sass-rem";
+@import '../forms';
+
+.header {
+  margin: 2% 5%;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 2px solid #3bb18d;
+}
+
+.header__title {
+  color: #3bb18d;
+  font-size: 25px;
+  text-align: center;
+}
+
+.departure__date {
+  @include rem(width, 250px);
+  @include rem(margin-bottom, 30px);
+
+  .react-datepicker-wrapper, .react-datepicker__input-container, input {
+    width: 100%;
+  }
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

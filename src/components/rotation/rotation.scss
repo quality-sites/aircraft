@@ -1,0 +1,35 @@
+@import "~sass-rem";
+
+.flight__info {
+    position: relative;
+    float: left;
+    width: 94.5%;
+    border: 2px solid #3bb18d;
+    border-radius: 5px;
+    padding: 0.5%;
+    margin: 2% 1.8%;
+
+    &--from, &--to, &--arrow {
+        position: relative;
+        float: left;
+        width: 33%;
+        text-align: center;
+    }
+    &--arrow { 
+        @include rem(padding-top, 2px);
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.close__button {
+    @include rem(right, 10px);
+    @include rem(top, 100px);
+    position: absolute;
+}

@@ -1,0 +1,15 @@
+{
+	"data": {
+		"rotation": {
+			"data": {
+				"id": "MAN1234",
+				"departuretime": 27000,
+				"arrivaltime": 33300,
+				"readable_departure": "07:30",
+				"readable_arrival": "09:15",
+				"origin": "LHBP",
+				"destination": "LFSB"
+			}
+		}
+	}
+}

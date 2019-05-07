@@ -1,0 +1,12 @@
+@import '../variables';
+@import "~sass-rem";
+
+.green {
+    background-color: $green;
+    color: $white;
+    @include rem(padding, 8px);
+}
+
+.red {
+    background-color: $red;
+}

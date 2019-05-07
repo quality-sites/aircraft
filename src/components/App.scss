@@ -1,0 +1,46 @@
+@import "~sass-rem";
+
+.quarter {
+  width: 20%;
+}
+
+.half {
+  width: 45%;
+}
+
+.full {
+  width: 100%;
+}
+
+.full__height {
+  height: 100%; 
+}
+
+.fl {
+  position: relative;
+  float:left;
+}
+
+.main__border {
+  border: 2px solid #3bb18d;
+  border-radius: 5px;
+  padding: 0.5%;
+  margin: 0 1.8%;
+}
+
+.sub__title {
+  text-align: center;
+}
+
+.app__content {
+  @include rem(height, 600px);
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.center__text {
+  text-align: center;
+}

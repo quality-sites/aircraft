@@ -1,4 +1,28 @@
+# Aircraft Scheduling App by Niyazi Niyazi
+
+[Demo](http://www.quality-sites.com/sites/aircraft/)
+
+The app shows a list of all our aircrafts to choose from.
+The app shows a list of all the flights the airline plan to operate that day, their origin, destination, departure time and arrival time.
+The purpose of the app is to allow the user to view and edit the daily rotation for each aircraft:
+The rotation is the list of flights, in order, an individual aircraft will operate during that day.
+Flights must be chosen by the user from our list of flights (right sidebar on the wireframe).
+
+The app lets the user edit the rotation freely but enforces the following rules:
+
+All aircrafts must be on the ground at midnight.
+The turnaround time (minimum time between the end of a flight and the beginning of the next one) is always 40min for our airline.
+Aircrafts cannot "teleport" and cannot move without operating a flight, empty aircrafts cost too much!
+We operate one type of aircraft.
+As per aviation practice, all times are UTC (GMT), the app makes no use of local time. Airports are displayed using their four letter code.
+Utilisation: The app must display for each aircraft its utilisation in percent, i.e. the time the aircraft is on scheduled service per 24 hours (as opposed to sitting idle on the apron costing us money).
+Aircraft timeline: for the selected aircraft, a vertical bar shows a period of 24 hours, scheduled service in green, turnaround time in purple, idle time in grey.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Future Improvements
+ Will be adding unit testing to all components and added more integration tests also. Proper timeline and flights calculations will be integrated into app. Responsive views will also be improved.
 
 ## Available Scripts
 

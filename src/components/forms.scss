@@ -1,0 +1,10 @@
+@import "~sass-rem";
+
+input[type=text], textarea[type=text] {
+    width: 100%;
+    @include rem(padding, 12px 20px);
+    @include rem(margin, 8px 0);
+    @include rem(font-size, 20px);
+    box-sizing: border-box;
+    text-align: center;
+}

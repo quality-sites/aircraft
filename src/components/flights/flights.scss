@@ -1,0 +1,17 @@
+@import '../variables';
+@import "~sass-rem";
+
+.flights {
+    &__container {
+        @include rem(margin-bottom, 10px);
+    }
+    &.main__border {
+        @include rem(height, 1800px);
+    }
+}
+
+.grey {
+    background-color: $grey;
+    color: $white;
+    @include rem(padding, 5px 0);
+}

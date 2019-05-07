@@ -1,0 +1,55 @@
+@import '../variables';
+
+.timeline {
+    position: relative;
+    float: left;
+    width: 94.5%;
+    border: 2px solid #3bb18d;
+    border-radius: 5px;
+    padding: 0.5%;
+    margin: 2% 1.8%;
+
+    &__title {
+        position: relative;
+        float: left;
+        width: 100%;
+        font-weight: bold;
+    }
+
+    &__hour {
+        position: relative;
+        float: left;
+        width: 49%;
+        padding-left: 1%;
+        font-weight: bold;
+
+        &:nth-child(2){
+            border-left: 2px solid black; 
+            padding-left: 0.5%;
+        }
+    }
+
+    &__content {
+        position: relative;
+        float: left;
+        width: 33%;
+    }
+
+    &__green {
+        background-color: $green;
+    }
+      
+    &__purple {
+        background-color: $purple;
+    }
+      
+    &__grey {
+        background-color: $grey;
+    }
+
+    &__full {
+        width: 93.5%;
+        list-style-type: none;
+    }
+
+}
